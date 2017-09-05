@@ -120,6 +120,7 @@
 				TargetAttributes = {
 					08AA4CD71F5E9143005831AB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 453KCV88UP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -290,9 +291,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 453KCV88UP;
 				INFOPLIST_FILE = HonoluluArt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.neal.HonoluluArt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiyunhousel.HonoluluArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,9 +304,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 453KCV88UP;
 				INFOPLIST_FILE = HonoluluArt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.neal.HonoluluArt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiyunhousel.HonoluluArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -329,6 +332,7 @@
 				08AA4CEC1F5E9143005831AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -76,5 +76,20 @@ class ViewController: UIViewController {
         mapView.setRegion(coordinateRegion, animated: true)
     }
 
+    // MARK: - 获取用户定位授权状态
+
+    var locationManager = CLLocationManager()
+    func checkLocationAuthrizationStatus() {
+        if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
+            mapView.showsUserLocation = true
+        }else {
+            locationManager.requestWhenInUseAuthorization()
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        checkLocationAuthrizationStatus()
+    }
 }
 
