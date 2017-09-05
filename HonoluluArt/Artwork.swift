@@ -52,6 +52,16 @@ class Artwork: NSObject,MKAnnotation {
         return locationName
     }
     
+    func pinColor() -> UIColor {
+        switch discipline {
+        case "Sculpture","Plaque":
+            return MKPinAnnotationView.redPinColor()
+            case "Mural","Monument":
+            return MKPinAnnotationView.purplePinColor()
+        default:
+            return MKPinAnnotationView.greenPinColor()
+        }
+    }
     
     func mapItem() -> MKMapItem {
         let addressDict = [CNPostalAddressStreetKey: subtitle!]
